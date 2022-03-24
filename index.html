@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maindiv">
+        <div class="container">
+            <div class="formdiv">
+                <form action="" class="form">
+                    <h3>Welcome Back</h3>
+                    <p>welcome back!Please enter your details</p>
+                    <label for="email">Email</label><br>
+                    <input type="email" placeholder="Enter Your Email"><br>
+                    <label for="password">password</label><br>
+                    <input type="password" placeholder="**********">
+                    <div class="fas">
+                    <p><input type="checkbox" name="checkbox" class="fa" id="">Remember for 30 days</p><a href="#"><b>Forgot password</b></a>
+                    </div>
+                    
+                    <button class="sign">Sign in</button><br>
+                    <button><i class="fa-brands fa-google"></i>Sign in with Google</button>
+                    <p>Don't have an account?<a href="#">Signup for free</a></p>
+
+                </form>
+            </div>
+            <div class="img-div">
+               
+              <img src="data:image/jpeg;base64,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" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html
